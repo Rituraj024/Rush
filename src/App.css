@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+  justify-content: center;
+  background-color: #000;
+}
+
+html {
+  font-size: 66.6%;
+  font-family: "urbanist";
+}
+
+p,
+li,
+a,
+button {
+  font-size: 1.7rem;
+  letter-spacing: 0.1rem;
+}
+
+li {
+  
+  list-style: none;
+ 
+}
+
+a {
+  color: white;
+  text-decoration: none;
+
+  &:hover {
+    color: black;
+    padding: 8px;
+    background-color: #EFBF56;
+    border: 2px solid #EFBF56;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
+}
+
+button {
+  cursor: pointer;
+}
+
+header {
+  height: 10rem;
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+  background-color: #d4e6f1;
+  width: 100%;
+}
+
+.container {
+  max-width: 132rem;
+  margin: auto;
+  height: 10rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    @media (max-width: 728px) {
+      flex-direction: row-reverse;
+      
+    }
+
+}
+
+.navbar{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+nav ul {
+  display: flex;
+  /* justify-content: flex-end; */
+  /* background-color: yellow; */
+  gap: 1.5rem;
+  text-decoration: none;
+}
+
+.ham-menu {
+  display: none;
+}
+.menu {
+  text-decoration: none;
+}
+
+/* media queries  */
+@media screen and (max-width: 998px) {
+  .menu-web {
+    display: none;
+    text-decoration: none;
+  }
+
+  .ham-menu {
+    display: inline-block;
+    justify-content: flex-start;
+    text-align: start;
+  }
+
+  .menu-mobile {
+    position: absolute;
+    top: 10rem;
+    left: 0;
+    background-color: #fff;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px;
+  }
+
+  .menu-mobile ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    & li:first-child {
+      margin-top: 1.2rem;
+    }
+
+    & li:last-child {
+      margin-bottom: 1.2rem;
+    }
+  }
+}
+p{
+  color: white;
+}
