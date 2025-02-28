@@ -19,7 +19,7 @@ export const Navbar= () => {
                 <a className="menu" href="#">Home</a>
               </li>
               <li>
-                <a className="menu" href="#">Service</a>
+                <a className="menu" href="#services">Service</a>
               </li>
               <li>
                 <a className="menu" href="#">Differentiator</a>
