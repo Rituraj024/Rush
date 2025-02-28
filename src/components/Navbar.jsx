@@ -28,7 +28,7 @@ export const Navbar= () => {
                 <a className="menu" href="#">Performance</a>
               </li>
               <li>
-                <a className="menu" href="#">Federeal Resources</a>
+                <a className="menu" href="#federal">Federeal Resources</a>
               </li>
               <li>
                 <a className="menu" href="#">Contact us</a>
