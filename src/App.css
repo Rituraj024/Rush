@@ -140,3 +140,32 @@ p{
   gap: 16px;
   margin: 48px;
 }
+
+.differentiator{
+  width: 100%;
+  height: 650px;
+  background: #EFBF56 url("/Group 69.png") no-repeat right top;
+  padding-top: 32px;
+  padding-left: 16px;
+}
+.differentiator-text{
+  width: 50%;
+  background-color: #EFBF56;
+  color: #000;
+  >h3 {
+    background-color: inherit;
+    font-size:60px;
+    font-weight: 700;
+    margin: 0px;
+  }
+  >ul {
+    background-color: inherit;
+    
+    >li{
+      background-color: inherit;
+      list-style:disc;
+      font-size: 24px;
+      padding: 8px 0 8px 0;
+    }
+  }
+}
